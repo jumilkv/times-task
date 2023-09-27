@@ -1,0 +1,132 @@
+@import '../../scss/common.scss';
+
+.sign-in{
+    display: flex;
+    font-weight: bold;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+.sign-in a{
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.sign-in-section{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 15% 0% 20%;
+    width: 50%;
+}
+
+.sign-in-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-form-input{
+    margin-bottom: 1rem !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border-color: $primary !important;
+    border-radius: initial !important;
+    border-width: 2px !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    height: 5px !important;
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{ 
+    padding: 0 !important;
+}
+
+.sign-in-button{
+    height: 2.2rem;
+        background: $primary;
+        color: $light;
+        font-weight: bold;
+        cursor: pointer;
+}
+
+.sign-up{
+    margin-bottom: 1.5rem;
+    margin-top: 0
+}
+
+.sign-in-keep{
+    margin-bottom: 1rem;
+}
+
+.sign-in-other-head{
+    margin-top: 2rem;
+    display: flex;
+    // border-top: 2px solid #bdbbbba3;
+    align-items: center;
+}
+
+.sign-in-other-head span{
+    border-top: 2px solid #bdbbbba3;
+    width: 32.5%;
+}
+.sign-in-other-head p {
+  background-color: #fff;
+  margin-top:-.5rem;
+  font-size: 9px;
+  padding-right: 5%;
+padding-left: 5%;
+}
+
+.sign-in-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sign-in-icons p {
+    border-radius: 50%;
+    border: 2px solid $primary;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.sign-in-icons p img{
+ padding-top: 2px;
+ margin-left: 2px;
+ margin-right: 2px;
+}
+.sign-in-logo{
+    width: 50%;
+    
+}
+
+.sign-in-logo img{
+    height: 70%;
+    margin-top: 4rem;
+}
+  .sub-section {
+      width: 100%;
+  }
+
+@media screen and (max-width: 700px) {
+    .sign-in-logo {
+        display: none;
+    }
+
+    .sign-in-section {
+            width: 100%;
+    }
+
+    .sign-in-section h1 {
+        text-align: center;
+    }
+    .sign-up{
+        text-align: center;
+    }
+        .sub-section {
+            width: 100%;
+        }
+}

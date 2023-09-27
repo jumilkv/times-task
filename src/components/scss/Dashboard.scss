@@ -1,0 +1,103 @@
+@import '../../scss/common.scss';
+
+.card{
+    border: 2px solid $primary;
+    box-shadow: 4px 5px 2px 0px rgb(208, 208, 208);
+    width: 45%;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.card p{
+   color: gray
+}
+
+.card img{
+    margin-right: 1.5rem;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5% 10%;
+    overflow: scroll;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons p {
+    border-radius: 50%;
+    border: 2px solid $primary;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.footer-icons p img {
+    padding-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.loading{
+    margin-left: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.web-header{
+    display: flex;  
+}
+
+.mobile-header {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+.card {
+            border: 2px solid $primary;
+            box-shadow: 4px 5px 2px 0px rgb(208, 208, 208);
+            width: 100%;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+    }
+
+.web-header {
+    display: none;
+}
+.mobile-header{
+    display: inline;
+}
+.menu-icon{
+    cursor: pointer;
+}
+
+.loading {
+    margin-left: 50%;
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+
+}
